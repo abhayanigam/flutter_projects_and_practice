@@ -1,0 +1,92 @@
+<!--
+    Important Notes:-
+        Creating anchors:
+            Linking to documents
+            Linking within documents
+            Expanding link metadata
+
+    1. Source anchor - <a href="http://">http://</a>
+
+    2. Named anchor - <a name="Name"></a>
+
+    3. Implicit anchor - <div id="article"></div>
+
+    4. Reference local anchor
+
+    5. Implicit anchor by ID
+
+    Expanding Link MetaData
+        1. language
+        2. Relationship
+        3. Content type
+        4. Access key
+        5. Target
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wired Brain Coffee</title>
+</head>
+<body>
+    
+    <header>
+        <!-- 
+            > (Targets)provide some context or direction to the browser about where you want this content to open.
+            
+            > ("_blank") this tells the browser you want to open this in a new window or tab.
+            
+            > (rel) this is the relationship to this particular document and you can use things like next indicating that
+                there's a flow in terms of documents that are together in a table of content.
+            
+            > (noreferrer noopener) This is a security-related measure that means when we go to this site and we create a
+                new window or in the same window, we go to the site, we don't want that site to have access to the window
+                that opened it or to the site that referred it.
+                (this is to protect against malicious sites or hijacked site being)
+        -->
+        <a href="https://google.com/" target="_blank" rel="noreferrer noopener">
+            <h1>Wired Brain Coffee</h1>
+            <h2>Coffee to keep your brain wired</h2>
+        </a>
+        <nav><!-- Nav indicate to the browser that the items inside of it are related to navigation within your document.-->
+            <ul>
+                <!-- .FolderName/fileName -->
+                <li><a href="./assets/recipes.html">Recipes</a></li>
+                <li><a href="./content/recipes.html#brownies">Brownie Recipe</a></li>
+                <li><a href="./content/nutrition.html">Nutrition Information</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article title="Wired Brain Coffee">
+
+   
+    <section id="main">
+        At Wired Brain Coffee, we believe that coffee can be the fuel your active brain needs.
+
+        <p>Coffee has long been known to provide a boost to brain activity and increase blood flow. </p>
+        <p>Another dubious statement about coffee to try and sell it</p>
+       
+    </section>
+
+    <section id="testimonials">
+        <h4>Testimonials</h4>
+        <hr />
+        <blockquote cite="http://www.wiredbraincoffee.com/testimonials/test1.html"><abbr title="Wired Brain">WB</abbr> coffee makes my brain feel like it was on fire!</blockquote>
+        <cite>Programmer &lt;Hoboken, NJ&gt;</cite>
+        
+        <p>
+            <q>I'm productive<sup>3</sup> when I drink this coffee!</q>
+            &nbsp; <!--<br />-->
+            <cite>Coder &lt;Chicago, IL&gt;</cite>
+        </p>
+
+    </section>
+    </article>
+    <footer>
+        &copy; Programmer
+    </footer>
+</body>
+</html>
