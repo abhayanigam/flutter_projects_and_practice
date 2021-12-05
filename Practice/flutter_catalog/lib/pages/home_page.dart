@@ -5,9 +5,9 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // return Material( // Material is used here to use the theme of the material widget
     return Scaffold(
       appBar: AppBar( // Here AppBar show differently Like in ios text show in center and in android text show in left.
+        backgroundColor: Colors.deepPurple,
         title: Text("Catalog App"),
       ),
       body: Center(
