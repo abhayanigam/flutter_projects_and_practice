@@ -49,9 +49,15 @@ class MyApp extends StatelessWidget {
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0,horizontal: 25.5),
                 child: ListTile(
-                  leading: Icon(
-                    Icons.phone,
-                    color: Colors.teal.shade900,
+                  // leading: Icon(
+                  //   Icons.phone,
+                  //   color: Colors.teal.shade900,
+                  // ),
+                  leading: const IconButton(
+                    icon: Icon(Icons.phone),
+                    color: Colors.teal,
+                    tooltip: 'Navigation menu',
+                    onPressed: null, // null disables the button
                   ),
                   title: Text(
                     '+91000000789',

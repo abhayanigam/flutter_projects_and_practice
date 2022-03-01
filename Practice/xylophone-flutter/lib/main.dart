@@ -1,26 +1,23 @@
 import 'package:flutter/material.dart';
-import 'package:audioplayers/audioplayers.dart';
+import 'package:audioplayers/audio_cache.dart';
 
 void main() => runApp(XylophoneApp());
 
 class XylophoneApp extends StatelessWidget {
-
-  void playSound(int soundNumber) {
+  void playSound({int track}) {
     final player = AudioCache();
-    player.play('note$soundNumber.wav');
+    player.play('note$track.wav');
   }
 
-  Expanded buildKey({Color color, int soundNumber}){
-    return Expanded(
-      child: FlatButton(
-        color: color,
-        onPressed: () {
-          playSound(soundNumber);
-        },
-        child: null,
-      ),
-    );
-  }
+//https://freesound.org/
+  Widget buildKey({int track, Color color}) => Expanded(
+        child: FlatButton(
+          color: color,
+          onPressed: () {
+            playSound(track: track);
+          },
+        ),
+      );
 
   @override
   Widget build(BuildContext context) {
@@ -30,14 +27,14 @@ class XylophoneApp extends StatelessWidget {
         body: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              buildKey(color: Colors.red,soundNumber: 1),
-              buildKey(color: Colors.orange,soundNumber: 2),
-              buildKey(color: Colors.yellow,soundNumber: 3),
-              buildKey(color: Colors.green,soundNumber: 4),
-              buildKey(color: Colors.teal,soundNumber: 5),
-              buildKey(color: Colors.blue,soundNumber: 6),
-              buildKey(color: Colors.purple,soundNumber: 7),
+            children: <Widget>[
+              buildKey(track: 1, color: Colors.red),
+              buildKey(track: 2, color: Colors.green),
+              buildKey(track: 3, color: Colors.blue),
+              buildKey(track: 4, color: Colors.yellow),
+              buildKey(track: 5, color: Colors.orange),
+              buildKey(track: 6, color: Colors.pink),
+              buildKey(track: 7, color: Colors.amber),
             ],
           ),
         ),
