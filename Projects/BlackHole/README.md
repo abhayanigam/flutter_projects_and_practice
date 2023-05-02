@@ -15,11 +15,14 @@ your phone with no advertising or paid subscriptions. You can even download song
 [![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Downloads](https://img.shields.io/github/downloads/Sangwan5688/BlackHole/total)
 [![Translation-Status](https://hosted.weblate.org/widgets/blackhole/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/blackhole/)
 
-## Download The Apk Now :
-
+## Download The Apk Now 
 [<img src="https://user-images.githubusercontent.com/663460/26973090-f8fdc986-4d14-11e7-995a-e7c5e79ed925.png"
      alt="Download from GitHub"
      height="90">](https://github.com/abhayanigam/flutter_projects_and_practice/releases/download/V1.0.0/app-release.apk)
+     
+## Process To Install
+At the time of installation just click the button -> (Install Anyway)
+<img src="https://github.com/abhayanigam/flutter_projects_and_practice/blob/master/Projects/BlackHole/assets/howToinstall.png?raw=true" width="32%">
 
 ## Translations
 
