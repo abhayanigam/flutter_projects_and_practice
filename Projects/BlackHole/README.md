@@ -20,9 +20,9 @@ your phone with no advertising or paid subscriptions. You can even download song
      alt="Download from GitHub"
      height="90">](https://github.com/abhayanigam/flutter_projects_and_practice/releases/download/V1.0.0/app-release.apk)
      
-## Process To Install
-At the time of installation just click the button -> (Install Anyway)
-<img src="https://github.com/abhayanigam/flutter_projects_and_practice/blob/master/Projects/BlackHole/assets/howToinstall.png?raw=true" width="32%">
+### Note : At the time of installation just click the button -> (Install Anyway)
+<img src="https://github.com/abhayanigam/flutter_projects_and_practice/blob/master/Projects/BlackHole/assets/howToinstall.png?raw=true" width="32%"></h1>
+
 
 ## Translations
 
