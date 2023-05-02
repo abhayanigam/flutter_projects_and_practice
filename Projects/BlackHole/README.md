@@ -2,7 +2,15 @@
 
 <h1 align="left">BlackHole<img src="https://github.com/abhayanigam/flutter_projects_and_practice/blob/master/Projects/BlackHole/assets/ic_launcher.png" width="50px"></h1>
 
-An Open-Source Music Player App for all your needs!
+## What is BlackHole?
+
+Do you like Online Music Streaming, but tired of applications with Low Quality or Paid Subscriptions?
+Tried downloading via free online music sites but it's too hectic?
+
+Blackhole is a music app created with the Purpose of high resolution music streaming experience on 
+your phone with no advertising or paid subscriptions. You can even download songs on your device 
+
+<h5><b>An Open-Source Music Player App for all your needs!</b></h5>
 
 [![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Downloads](https://img.shields.io/github/downloads/Sangwan5688/BlackHole/total)
 [![Translation-Status](https://hosted.weblate.org/widgets/blackhole/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/blackhole/)
