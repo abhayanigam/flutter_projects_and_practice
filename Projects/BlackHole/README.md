@@ -11,7 +11,7 @@ An Open-Source Music Player App for all your needs!
 
 [<img src="https://user-images.githubusercontent.com/663460/26973090-f8fdc986-4d14-11e7-995a-e7c5e79ed925.png"
      alt="Download from GitHub"
-     height="90">]()
+     height="90">](https://github.com/abhayanigam/flutter_projects_and_practice/releases/download/V1.0.0/app-release.apk)
 
 ## Translations
 
