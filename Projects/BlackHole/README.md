@@ -1,17 +1,15 @@
-# BlackHole
+<img align="right" src="https://media3.giphy.com/media/tqfS3mgQU28ko/giphy.gif?cid=ecf05e47a88n7gdy9a14c7a7y9ah9es7n4eeggis3vn3ow7i&ep=v1_gifs_search&rid=giphy.gif&ct=g" height="280px" width="auto">
 
-<img align="right" src="https://media.giphy.com/media/d31vTpVi1LAcDvdm/giphy.gif" height="180px" width="auto">
-
-<h2 align="left"><img src="https://github.com/abhayanigam/abhayanigam/blob/main/Assets/wave1.gif" width="30px">Hello There, Fellow Developers!</h2>
+<h1 align="left">BlackHole<img src="https://github.com/abhayanigam/flutter_projects_and_practice/blob/master/Projects/BlackHole/assets/ic_launcher.png" width="50px"></h1>
 
 An Open-Source Music Player App for all your needs!
 
 [![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) ![Downloads](https://img.shields.io/github/downloads/Sangwan5688/BlackHole/total)
 [![Translation-Status](https://hosted.weblate.org/widgets/blackhole/-/translations/svg-badge.svg)](https://hosted.weblate.org/engage/blackhole/)
 
-## Download
+## Download The Apk Now :
 
-[<img src="get_github.png"
+[<img src="https://user-images.githubusercontent.com/663460/26973090-f8fdc986-4d14-11e7-995a-e7c5e79ed925.png"
      alt="Download from GitHub"
      height="90">](https://github.com/Sangwan5688/BlackHole/releases)
 
