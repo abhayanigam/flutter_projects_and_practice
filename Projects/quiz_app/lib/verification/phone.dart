@@ -1,7 +1,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:quiz_app/login_register_ui/signup.dart';
-import 'package:quiz_app/login_register_ui/verify.dart';
+import 'package:quiz_app/verification/verify.dart';
 
 class MyPhone extends StatefulWidget {
   const MyPhone({Key? key}) : super(key: key);
@@ -36,7 +35,7 @@ class _MyPhoneState extends State<MyPhone> {
                   height: MediaQuery.of(context).size.height / 3,
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage('verified.png'))),
+                          image: AssetImage('assets/verified.png'))),
                 ),
               ),
               SizedBox(

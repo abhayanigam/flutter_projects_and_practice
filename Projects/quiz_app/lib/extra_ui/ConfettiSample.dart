@@ -1,6 +1,7 @@
 import 'dart:math';
 import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
+import 'package:quiz_app/extra_ui/progressbar.dart';
 
 class ConfettiSample extends StatelessWidget {
   final int totalCorrect;
@@ -103,7 +104,7 @@ class _MyAppState extends State<MyApp> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Image.asset(
-                  'confetti.png', // Replace with your image asset
+                  'assets/confetti.png', // Replace with your image asset
                   height: 90,
                   width: 90,
                 ),
@@ -120,10 +121,10 @@ class _MyAppState extends State<MyApp> {
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(10))),
                         onPressed: () {
-                          // Navigator.push(
-                          //     context,
-                          //     MaterialPageRoute(
-                          //         builder: (context) => SwipQuestions()));
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => ProgressBar()));
                         },
                         child: Text("Progress Bar", style: TextStyle(color: Colors.white, fontSize: 21))),
                   ),

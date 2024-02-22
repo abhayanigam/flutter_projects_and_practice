@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_card_swiper/flutter_card_swiper.dart';
 
+import '../extra_ui/ConfettiSample.dart';
+
 
 class CardSwip extends StatefulWidget {
   @override

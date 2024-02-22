@@ -1,7 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:quiz_app/login_register_ui/phone.dart';
-import 'package:quiz_app/login_register_ui/signup.dart';
+import 'package:quiz_app/verification/phone.dart';
+import 'package:quiz_app/verification/signup.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
                   height: MediaQuery.of(context).size.height / 3,
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage('assets/illustration.png'))),
+                          image: AssetImage('assets/Illustration.png'))),
                 ),
               ),
               Column(

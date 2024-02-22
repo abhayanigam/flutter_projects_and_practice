@@ -2,6 +2,8 @@ import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
 
+import '../dashboard/cardswip.dart';
+
 class MyVerify extends StatefulWidget {
   const MyVerify({Key? key}) : super(key: key);
 
@@ -64,7 +66,7 @@ class _MyVerifyState extends State<MyVerify> {
                   height: MediaQuery.of(context).size.height / 3,
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage('verify.png'))),
+                          image: AssetImage('assets/verify.png'))),
                 ),
               ),
               SizedBox(
@@ -107,25 +109,30 @@ class _MyVerifyState extends State<MyVerify> {
                         backgroundColor: Colors.green.shade600,
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10))),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => CardSwip()));
+                    },
                     child: Text("Verify Phone Number", style: TextStyle(color: Colors.white))),
               ),
-              Row(
-                children: [
-                  TextButton(
-                      onPressed: () {
-                        Navigator.pushNamedAndRemoveUntil(
-                          context,
-                          'phone',
-                          (route) => false,
-                        );
-                      },
-                      child: Text(
-                        "Edit Phone Number ?",
-                        style: TextStyle(color: Colors.black),
-                      ))
-                ],
-              )
+              // Row(
+              //   children: [
+              //     TextButton(
+              //         onPressed: () {
+              //           Navigator.pushNamedAndRemoveUntil(
+              //             context,
+              //             'phone',
+              //             (route) => false,
+              //           );
+              //         },
+              //         child: Text(
+              //           "Edit Phone Number ?",
+              //           style: TextStyle(color: Colors.black),
+              //         ))
+              //   ],
+              // )
             ],
           ),
         ),
