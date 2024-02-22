@@ -34,7 +34,7 @@ class _CardSwipState extends State<CardSwip> {
         backgroundColor: Colors.grey[900],
         appBar: AppBar(
           backgroundColor: Colors.yellow,
-          title: Text('Quiz App'),
+          title: Text('Test Your Reason'),
         ),
         body: Center(
           child: CardSwiper(
