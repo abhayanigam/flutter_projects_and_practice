@@ -1,4 +1,4 @@
-# test_app
+# Integration Testing - test_app
 
 A new Flutter project.
 
